@@ -14,7 +14,7 @@ Lasso = pickle.load(open('LaR.pkl', 'rb'))
 Ridge = pickle.load(open('Ri.pkl', 'rb'))
 Linear = pickle.load(open('ILR.pkl', 'rb'))
 
-nav = st.sidebar.radio('Navigation', ['Home', 'Prediction', "Visualization"])
+nav = st.sidebar.radio('Navigation', ['Home', 'Prediction'])
 if nav == 'Home':
     st.subheader('Insurance Charges Prediction')
     if st.checkbox('Show Data'):
